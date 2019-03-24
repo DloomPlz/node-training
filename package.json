@@ -1,0 +1,16 @@
+{
+  "name": "rest",
+  "version": "1.0.0",
+  "description": "rest",
+  "main": "index.js",
+  "scripts": {
+    "init_db": "node database/init_db"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "sequelize": "^4.43.0",
+    "sqlite3": "^4.0.6"
+  }
+}
